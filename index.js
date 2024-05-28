@@ -1,4 +1,4 @@
-//Advanced Exercise 1
+//Advanced Exercise 1 ///////////////////////////////////////
 let a = 7;
 let b = 14;
 let c = "21";
@@ -22,7 +22,7 @@ console.log("Produkt: " + product);
 
 document.write(sum/product);
 
-//Advanced exercise 2
+//Advanced exercise 2 //////////////////////////////////////////////
 let people = ["Greg", "Mary", "Devon", "James"];
 
 // //remove Greg
@@ -52,6 +52,7 @@ let people = ["Greg", "Mary", "Devon", "James"];
 // //where is Foo?
 // console.log(people.indexOf("Foo"));
 
+////////////////////////////////////////////////////////////////////////////
 //after resetting the array
 people.splice(2,1);
 console.log(people);
@@ -77,15 +78,18 @@ let idx11 = multiArray [1] [1];
 console.log(idx11);
 
 
-//Challenge
+//Challenge //////////////////////////////////////////////////////////
 let str = "Properties,$a$set$of$immutable$values,$are$passed$to$a$component's$renderer$as$properties$in$its$HTML$tag.$A$component$cannot$directly$modify$any$properties$passed$to$it,$but$can$be$passed$callback$functions$that$do$modify$valus.$This$mechanism's$promise$is$expressed$as$properties $flow$down;$actions$flow$up."
 
 // let newStr = str.replaceAll("$", " ");
 // console.log(newStr);
 
-let newStr = str.split("$");
-let str2 = newStr.join(" ");
-console.log(str2);
+// let newStr = str.split("$");
+// let str2 = newStr.join(" ");
+// console.log(str2);
+
+let newStr = str.split("$").join(" ");
+console.log(newStr);
 
 
 
